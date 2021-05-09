@@ -17,3 +17,7 @@ instrumentation/**/*.gemfile.lock
 
 # IDE Settings
 /.idea/
+
+./examples/http/server/api/
+./examples/http/server/sdk/
+./examples/http/server/common/
