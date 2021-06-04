@@ -16,7 +16,7 @@ OpenTelemetry::SDK.configure do |c|
 end
 
 # Example application for the Sinatra instrumentation
-class App < Sinatra::Base
+class App < Sinatra
   set :bind, '0.0.0.0'
   set :show_exceptions, false
 
